@@ -1,0 +1,45 @@
+type: api
+version: v4.1.0
+data:
+  name: HealthAPI
+  description: API Definition of Health API
+  context: /health
+  version: 1.0.1
+  provider: admin
+  lifeCycleStatus: CREATED
+  isDefaultVersion: true
+  isRevision: false
+  revisionId: 0
+  type: HTTP
+  transport:
+  - http
+  - https
+  policies:
+  - Unlimited
+  visibility: PUBLIC
+  corsConfiguration:
+    corsConfigurationEnabled: true
+    accessControlAllowOrigins:
+    - '*'
+    accessControlAllowHeaders:
+    - authorization
+    - Access-Control-Allow-Origin
+    - Content-Type
+    - SOAPAction
+    - apikey
+    - Internal-Key
+    accessControlAllowMethods:
+    - GET
+    - PUT
+    - POST
+    - DELETE
+    - PATCH
+    - OPTIONS
+  endpointConfig:
+    endpoint_type: http
+    production_endpoints:
+      url: http://localhost:8290/healthcare
+    sandbox_endpoints:
+      url: http://localhost:8290/healthcare
+  endpointImplementationType: ENDPOINT
+  websubSubscriptionConfiguration: null
