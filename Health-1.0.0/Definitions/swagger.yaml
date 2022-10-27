@@ -33,6 +33,29 @@ paths:
         security-types:
          - oauth2
         optional: false
+  /query/{category}:
+    get:
+      parameters:
+       -
+        name: category
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        default:
+          description: Default response
+      security:
+       -
+        default: []
+      x-throttling-tier: Unlimited
+      x-auth-type: Application & Application User
+      x-wso2-application-security:
+        security-types:
+         - oauth2
+        optional: false
 components:
   securitySchemes:
     default:
