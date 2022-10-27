@@ -1,0 +1,9 @@
+repos:
+  3f8fe0e1-4d0f-49d6-a258-6b5d3b4d38cd:
+    environments:
+      dev:
+        lastAttemptedRev: ebaf983ebd2238458d7ca0464b81ab52b17c03c5
+        lastSuccessfulRev:
+        - ebaf983ebd2238458d7ca0464b81ab52b17c03c5
+        - 8bbc177b1f80d8364ee9d01388b6e83e47c622d2
+        failedProjects: {}
