@@ -59,7 +59,7 @@ security:
 servers:
 - url: http://localhost:8290/healthcare
 x-wso2-auth-header: Authorization
-x-wso2-basePath: /health
+x-wso2-basePath: /health/1.0.5
 x-wso2-cors:
   accessControlAllowCredentials: false
   accessControlAllowHeaders:
