@@ -6,7 +6,7 @@ data:
   context: /health
   version: 1.0.5
   provider: admin
-  lifeCycleStatus: CREATED
+  lifeCycleStatus: PUBLISHED
   isDefaultVersion: true
   isRevision: false
   revisionId: 0
