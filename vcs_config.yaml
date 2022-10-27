@@ -8,7 +8,8 @@ repos:
         - 8bbc177b1f80d8364ee9d01388b6e83e47c622d2
         failedProjects: {}
       prod:
-        lastAttemptedRev: 5d6237e07c13dea913758299896ace4c76c9d0e5
+        lastAttemptedRev: c8f661cc5f1c179522050a70e4b160d025f62ccf
         lastSuccessfulRev:
+        - c8f661cc5f1c179522050a70e4b160d025f62ccf
         - 5d6237e07c13dea913758299896ace4c76c9d0e5
         failedProjects: {}
