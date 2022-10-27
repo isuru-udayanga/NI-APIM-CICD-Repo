@@ -3,7 +3,7 @@ version: v4.1.0
 data:
   name: HealthAPI
   description: API Definition of Health API
-  context: /health
+  context: /health/1.0.5
   version: 1.0.5
   provider: admin
   lifeCycleStatus: PUBLISHED
