@@ -18,7 +18,7 @@ security:
  -
   default: []
 paths:
-  /order12:
+  /order:
     post:
       description: Create a new Order
       requestBody:
@@ -332,7 +332,7 @@ x-wso2-sandbox-endpoints:
   urls:
    - https://localhost:9443/am/sample/pizzashack/v1/api/
   type: http
-x-wso2-basePath: /pizzashack/1.0.0
+x-wso2-basePath: /pizzashack/2.0.0
 x-wso2-transports:
  - http
  - https
