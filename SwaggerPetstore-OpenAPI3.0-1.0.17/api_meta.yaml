@@ -5,3 +5,16 @@ deploy:
     update: true
 name: SwaggerPetstore-OpenAPI3.0
 version: 1.0.17
+environments:
+- name: prod
+  configs:
+    endpoints:
+        production:
+            url: 'https://dev.wso2.com'
+    security:
+        production:
+            enabled: true
+            type: basic
+            username: admin
+            password: admin
+
