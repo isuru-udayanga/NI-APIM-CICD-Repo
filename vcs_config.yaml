@@ -8,8 +8,13 @@ repos:
         - 8bbc177b1f80d8364ee9d01388b6e83e47c622d2
         failedProjects: {}
       prod:
-        lastAttemptedRev: 80e46a9417c810a953e9013a7897d6505e93c829
+        lastAttemptedRev: 6f13c1a82bbc5a9ef831558ed53760d60a8ab012
         lastSuccessfulRev:
+        - 6f13c1a82bbc5a9ef831558ed53760d60a8ab012
+        - b2ba5ef994d1a7ec8b8c261b52d5e9062582a581
+        - e75e963867446bd24db985bd68dbe1a3e7afaebf
+        - 92c7bef0139f094941cd4f63b04a6ea5d0520dea
+        - 06eff73a11a9584234b6420c7841d3ffdacb6bcf
         - 80e46a9417c810a953e9013a7897d6505e93c829
         - 2d5e40e82dd8fafe7dc03b4dd58c1278d4657380
         - 8fd17405a4039d0b1458344abe9264116955e402
