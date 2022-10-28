@@ -9,7 +9,7 @@ data:
   provider: admin
   lifeCycleStatus: PUBLISHED
   isDefaultVersion: true
-  isRevision: false
+  isRevision: true
   revisionId: 0
   type: HTTP
   transport:
