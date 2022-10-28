@@ -28,11 +28,5 @@ data:
   policies:
   - Unlimited
   visibility: PUBLIC
-  endpointConfig:
-    endpoint_type: http
-    production_endpoints:
-      url: http://localhost:8080
-    sandbox_endpoints:
-      url: http://localhost:8081
   endpointImplementationType: ENDPOINT
   websubSubscriptionConfiguration: null
