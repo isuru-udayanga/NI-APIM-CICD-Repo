@@ -1,0 +1,19 @@
+environments:
+    - name: prod
+      endpoints:
+          production:
+              url: 'https://dev.wso2.com'
+      security:
+          enabled: true
+          type: basic
+          username: 'admin'
+          password: 'admin'
+      certs:
+          - hostName: 'https://dev.wso2.com'
+            alias: Dev
+            path: ~/.certs/dev.pem 
+      gatewayEnvironments:
+          - Production and Sandbox
+      policies:
+          - Gold
+          - Silver
