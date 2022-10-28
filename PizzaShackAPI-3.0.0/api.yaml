@@ -9,8 +9,8 @@ data:
   provider: admin
   lifeCycleStatus: PUBLISHED
   isDefaultVersion: true
-  isRevision: false
-  revisionId: 0
+  isRevision: true
+  revisionId: 1
   type: HTTP
   transport:
   - http
@@ -39,8 +39,8 @@ data:
   endpointConfig:
     endpoint_type: http
     production_endpoints:
-      url: https://localhost:9443/am/sample/pizzashack/v1/api/
+      url: https://test:9443/am/sample/pizzashack/v1/api/
     sandbox_endpoints:
-      url: https://localhost:9443/am/sample/pizzashack/v1/api/
+      url: https://test:9443/am/sample/pizzashack/v1/api/
   endpointImplementationType: ENDPOINT
   websubSubscriptionConfiguration: null
