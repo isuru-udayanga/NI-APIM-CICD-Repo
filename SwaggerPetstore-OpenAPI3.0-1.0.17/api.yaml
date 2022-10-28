@@ -29,11 +29,10 @@ data:
   - Unlimited
   visibility: PUBLIC
   endpointConfig:
-    prod:
-      endpoint_type: http
-      production_endpoints:
-        url: http://localhost:8080
-      sandbox_endpoints:
-        url: http://localhost:8081
+    endpoint_type: http
+    production_endpoints:
+      url: http://localhost:8080
+    sandbox_endpoints:
+      url: http://localhost:8081  
   endpointImplementationType: ENDPOINT
   websubSubscriptionConfiguration: null
